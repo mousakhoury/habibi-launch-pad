@@ -2,13 +2,10 @@
 
 ### Project Description
 
-Welcome to **Habibi Launch Pad**, a Web3-powered Laravel - React news aggregation platform! In addition to curating the latest news from three different APIs, our platform also serves as a launchpad for Web3 projects, enabling users to stay updated on the latest decentralized technologies, token offerings, and blockchain innovations.
-
-A **Web3 Launchpad** is a platform designed to support the launch and promotion of new decentralized applications (dApps), token sales, and blockchain-based projects. It provides a space for these projects to reach an audience, attract investors, and gather community support. By combining news aggregation with Web3 features, Habibi Launch Pad offers a comprehensive experience for users interested in both the latest news and the latest Web3 ventures.
+Welcome to **Habibi Launch Pad**, is a platform designed to support the launch and promotion of new decentralized applications (dApps), token sales, and blockchain-based projects. It provides a space for these projects to reach an audience, attract investors, and gather community support. By combining news aggregation with Web3 features, Habibi Launch Pad offers a comprehensive experience for users interested in both the latest news and the latest Web3 ventures.
 
 ### Features:
 
-- **News Aggregation:** Our website collects news articles from three distinct APIs, ensuring a comprehensive and diverse range of stories on your home page.
   
 - **Web3 Launchpad:** Stay informed about the latest Web3 projects, including upcoming ICOs, NFT drops, and decentralized apps. Our platform allows users to discover, follow, and support new Web3 ventures directly.
 
