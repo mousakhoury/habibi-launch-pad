@@ -1,0 +1,41 @@
+.availableContainer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    padding: 17px 66px;
+    border-radius: 6px;
+    border: 1px solid #222517;
+    background: #181912;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.availableContainer:hover {
+    background: #222517;
+}
+
+.availableContainer p {
+    color: #e2fd70;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.imageContainer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.imageRocket {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.availableContainer:hover .imageRocket {
+    transform: rotate(-25deg);
+}

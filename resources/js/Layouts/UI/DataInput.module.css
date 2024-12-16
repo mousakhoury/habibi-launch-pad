@@ -1,0 +1,59 @@
+.input_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #323232;
+    border-radius: 8px;
+    background-color: #1b1b1b;
+    width: 100%;
+}
+
+.input_field {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #323232;
+    border-radius: 8px;
+    background-color: #1b1b1b;
+    color: #fff;
+    outline: none;
+    position: relative; /* Added for z-index to work correctly */
+    z-index: 1;
+}
+
+.input_label {
+    position: absolute;
+    left: 16px;
+    transition: all 0.3s ease;
+    color: #ccc;
+    pointer-events: none;
+    z-index: 2;
+    color: #9c9c9c;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 18.2px */
+}
+
+.input_label::after {
+    content: "*";
+    color: #e26666;
+}
+
+/* When the input is focused or has content, the label moves to the top */
+.input_container:focus-within .input_label,
+.input_field:not(:placeholder-shown) + .input_label {
+    transform: translateY(-150%);
+    font-size: 12px;
+    border-radius: 3px;
+    background: #1b1b1b;
+    padding: 0px 8px;
+}
+
+/* Hide the placeholder text when input is not focused */
+.input_field:not(:focus)::placeholder {
+    color: transparent;
+}
+
+.input_field:focus {
+    border: 1px solid #e2fd70;
+}

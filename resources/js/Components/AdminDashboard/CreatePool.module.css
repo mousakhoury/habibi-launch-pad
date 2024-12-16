@@ -1,0 +1,9 @@
+.input {
+    width: 100%;
+    background-color: transparent;
+    padding: 0;
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: unset !important;
+    color: #000;
+}

@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    padding: 4px;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 6px;
+    background: #252525;
+}
+
+.radioInput {
+    display: none;
+}
+
+.radioLabel {
+    display: flex;
+    padding: 8px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #b4b4b4;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.075px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.radioLabel:hover {
+    background-color: #555; /* hover state color */
+}
+
+.radioInput:checked + .radioLabel {
+    background-color: #1b1b1b; /* active state color */
+    color: #e2fd70;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        border-radius: 4px;
+    }
+
+    .radioLabel {
+        padding: 6px 20px;
+        border-radius: 2px;
+        font-size: 12px;
+    }
+}
