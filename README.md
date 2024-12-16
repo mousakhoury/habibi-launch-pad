@@ -1,66 +1,116 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## Habibi Launch Pad
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+### Project Description
 
-## About Laravel
+Welcome to **Habibi Launch Pad**, a Web3-powered Laravel - React news aggregation platform! In addition to curating the latest news from three different APIs, our platform also serves as a launchpad for Web3 projects, enabling users to stay updated on the latest decentralized technologies, token offerings, and blockchain innovations.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A **Web3 Launchpad** is a platform designed to support the launch and promotion of new decentralized applications (dApps), token sales, and blockchain-based projects. It provides a space for these projects to reach an audience, attract investors, and gather community support. By combining news aggregation with Web3 features, Habibi Launch Pad offers a comprehensive experience for users interested in both the latest news and the latest Web3 ventures.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Features:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **News Aggregation:** Our website collects news articles from three distinct APIs, ensuring a comprehensive and diverse range of stories on your home page.
+  
+- **Web3 Launchpad:** Stay informed about the latest Web3 projects, including upcoming ICOs, NFT drops, and decentralized apps. Our platform allows users to discover, follow, and support new Web3 ventures directly.
 
-## Learning Laravel
+- **User Authentication:** Create a new account or log in to your existing account to personalize your news experience and interact with the Web3 ecosystem.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Personalized News Feed:** Once logged in, your home page presents you with a consolidated view of news articles from the APIs, including updates on Web3 projects, token sales, and blockchain innovations.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Profile Management:** Your profile is just a click away. Access it from the dropdown next to your username in the top right corner. Update your personal information, including your name, email, and password. You also have the option to delete your account if needed.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Preference Settings:** Tailor your news feed to match your interests by visiting the preference page from the dropdown menu. Here, you can choose preferred news sources, categories, and authors. Your news feed will reflect these choices, ensuring you get the most relevant articles.
 
-## Laravel Sponsors
+### How to Get Started
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **Create an Account or Log In:** Start by creating a new account or logging in if you already have one.
+  
+- **Explore the Home Page:** Once logged in, you'll land on the home page, where you can view the latest news articles and Web3 projects from our selected APIs.
 
-### Premium Partners
+- **Filter News:** Use the filtering options to refine your news feed. Search for articles by title, date, categories, or author to focus on topics that matter to you.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- **Interact with Web3 Projects:** Discover upcoming Web3 projects, token offerings, and decentralized apps. Participate in their early stages or simply follow their progress.
 
-## Contributing
+- **Manage Your Profile:** Click on your username in the top right corner and select "Profile" from the dropdown. Here, you can update your personal details or delete your account if needed.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Customize Your Preferences:** Access the preference page from the dropdown next to your username. Fine-tune your news feed by selecting preferred sources, categories, and authors.
 
-## Code of Conduct
+- **Stay Informed:** Enjoy a personalized news experience that keeps you informed about the latest Web3 projects, token sales, and blockchain innovations.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Whether you're a news enthusiast, a Web3 investor, or someone curious about decentralized technologies, **Habibi Launch Pad** offers a seamless way to access, customize, and enjoy a diverse range of Web3 news and projects.
 
-## Security Vulnerabilities
+### Table of Contents
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Installation
+- Configuration
+- Usage
 
-## License
+### Installation
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. **Ensure you have the required software:**
+   Before getting started, make sure you have the following software installed on your system:
+   - [Composer](https://getcomposer.org/download/)
+   - [Node.js](https://nodejs.org/en/download/)
+   - XAMPP or any other server with PHP version 8.2.4 or higher installed and running.
+
+2. **Clone the repository:**
+   ```
+   git clone https://github.com/mousakhoury/News-Aggregator.git
+   ```
+
+3. **Navigate to the project directory:**
+   ```
+   cd your-project
+   ```
+
+4. **Install Composer Dependencies:**
+   ```
+   composer install
+   ```
+
+5. **Copy the .env file:**
+   ```
+   cp .env.example .env
+   ```
+
+6. **Generate an application key:**
+   ```
+   php artisan key:generate
+   ```
+
+7. **Create an empty database for the project. Update `.env` with your database details:**
+
+   ```
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=your_database_name
+   DB_USERNAME=your_database_username
+   DB_PASSWORD=your_database_password
+   ```
+
+8. **Run Migrations and Seeders:**
+   ```
+   php artisan migrate --seed
+   ```
+
+### Configuration
+
+Explain any additional configuration steps that might be necessary. This could include setting up third-party services, environment variables, or custom settings.
+
+### Usage
+
+1. **Compile assets:**
+   ```
+   npm install
+   npm run dev
+   ```
+
+2. **Start the development server:**
+   ```
+   php artisan serve
+   ```
+
+3. **Access the application in your web browser:**
+   ```
+   http://localhost:8000
+   ```
